@@ -7,10 +7,32 @@
 	<meta name="Generator" content="Cocoa HTML Writer">
 	<meta name="CocoaVersion" content="1138.51">
 	<style type="text/css">
-		p.p1 {margin: 0.0px 600.0px 0.0px 0.0px; font: 18.0px Georgia}
+		p.p1 {margin: 0.0px 50.0% 0.0px 0.0px; font: 18.0px Georgia}
 	</style>
 </head>
 <body>
-	<p class="p1">There isn't anything here. I'll add whatever strange ideas I get when I get said strange ideas, but for now there's just a lot of pointless text.</p>
+	<p class="p1">Below is a bunch of random JavaScript/HTML stuff. Feel free to try some stuff out, look at the source code, or whatever, really.</p>
+	<br>
+	<script language = "javascript">
+		var primeValue;
+		var divisor;
+		var primeCheck = function(number) {
+			var number = (prompt("Find out if the number is prime:"));
+			for (var divisor = 2; divisor < Math.sqrt (number) + 1; divisor++) {
+				if (number % divisor === 0) {
+					var primeValue = 1;
+					break;
+				}
+			}
+			if (primeValue === 1) {
+				alert ("The number is not prime");
+			} else {
+				alert ("The number is prime");
+			}
+		}; // max number = 8999999999999999
+	</script>
+	<form> 
+		<input type="button" value="Prime Checker" style="margin-left:20%" onclick=primeCheck()>
+	</form>
 </body>
 </html>
