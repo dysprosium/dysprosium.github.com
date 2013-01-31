@@ -12,7 +12,15 @@
 	<script language="javascript">
 		var confirmation = confirm("Are you sure that you wish to enter this site?\nBy pressing 'OK', you agree that you take full responsibility to any damage caused by the site.");
 		if (confirmation != true) {
-			window.location="index.html"
+			alert("Redirecting...");
+			window.location="index.html";
+		};
+		if (confirmation == true) {
+			var confirmation2 = prompt("Are you absolutely certain?\nIf so, type 'I am a very strange person'");
+			if (confirmation2 != "I am a very strange person") {
+				alert("Redirecting...");
+				window.location="index.html";
+			};
 		};
 	</script>
 </head>
