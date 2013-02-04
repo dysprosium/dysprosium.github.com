@@ -53,8 +53,24 @@
 			};
 		}; // max number = 8999999999999999
 	</script>
+	<script language="javascript">
+		var piGenerator = function() {
+			var pi = 0;
+			var digits = prompt("How many iterations?");
+			var n = 1
+			for (i = 0; i <= digits; i++) {
+				pi = pi + (4 / n) - (4 / (n + 2));
+				n = n + 4;
+				document.write(pi + "<br>");
+			};
+		};
+	</script>
 	<form> 
 		<input type="button" value="Prime Checker" style="margin-left:20%" onclick=primeCheck()>
+	</form>
+	<br>
+	<form> 
+		<input type="button" value="Pi Generator" style="margin-left:20%" onclick=piGenerator()>
 	</form>
 </body>
 </html>
