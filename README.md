@@ -1,13 +1,19 @@
 # The End of the World
 
-Open source content for Midnight theme. Theme was first designed / developed for GitHub Pages and is availalbe for download, forking and using anywhere else on the web. Like the theme share it with the twitterverse.
+The ultimate website; the pinnacle of human existence... this is [dysprosium!](http://dysprosium.github.com)
 
-![Midnight Theme](http://f.cl.ly/items/2G0Q031t2K3h0F2i3V1E/Screen%20Shot%202012-12-25%20at%208.38.55%20AM.png)
+![BTW, this isn't me. Just saying.](http://dysprosium.github.com/images/P1020911.JPG)
 
-The Midnight Pages demo is [here](http://mattgraham.github.com/Midnight)
+Above is a creepy picture which shall greet you upon entering the webpage.
 
-*Note Additional font characters for OpenSans typeface can be found in [v1.1](https://github.com/mattgraham/Midnight/archive/v1.1.zip)
+Truly, this is the most awe-inspiring of all webpages, one that shall stun people for generations to come.
 
-Theme by [Matt Graham](http://madebygraham.com), twitter [@michigangraham](http://twitter.com/#!/michigangraham)
+Inside this **brilliant** site lies mysteries of untold power. As the legends say:
+
+*He who controls [http://dysprosium.github.com](http://dysprosium.github.com) controls the **world!***
+
+***
+
+Theme by [Matt Graham](http://github.com/mattgraham)
 
 [Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/)
