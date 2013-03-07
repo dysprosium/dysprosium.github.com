@@ -10,7 +10,7 @@ Truly, this is the most awe-inspiring of all webpages, one that shall stun peopl
 
 Inside this **brilliant** site lies mysteries of untold power. As the legends say:
 
-*He who controls [http://dysprosium.github.com](http://dysprosium.github.com) controls the **world!***
+*He who controls [http://dysprosium.github.com](http://dysprosium.github.com) controls the world!*
 
 ***
 
