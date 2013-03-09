@@ -5,28 +5,34 @@ function primeCheck() {
 	var skip = true;
 
 	while (skip !== false) {
-		number = (prompt("Find out if the number is prime:"));
+		number = prompt("Find out if the number is prime:");
 		var skip1 = false;
 		var skip2 = false;
 		var skip3 = false;
 		var skip4 = false;
 		var skip5 = false;
-		if (number == 1) {
-			alert ("The number is not prime");
+
+		if (number === 1) {
+			alert("The number is not prime");
 			skip1 = true;
-		} if (number == 2) {
-			alert ("The number is prime");
+		}
+		if (number === 2) {
+			alert("The number is prime");
 			skip2 = true;
-		} if (isNaN(number) === true) {
-			alert ("Please enter a valid number");
+		}
+		if (isNaN(number) === true) {
+			alert("Please enter a valid number");
 			skip3 = true;
-		} if (number < 1) {
-			alert ("Please enter a valid number");
+		}
+		if (number < 1) {
+			alert("Please enter a valid number");
 			skip4 = true;
-		} if (number % 1 !== 0 & skip2 !== true) {
-			alert ("Please enter a valid number");
+		}
+		if (number % 1 !== 0 & skip2 === false & skip3 === false & skip4 === false) {
+			alert("Please enter a valid number");
 			skip5 = true;
-		} if (skip1 === false & skip2 === false & skip3 === false & skip4 === false) {
+		}
+		if (skip1 === false & skip2 === false & skip3 === false & skip4 === false & skip5 === false) {
 			skip = false;
 		}
 	}
@@ -39,8 +45,8 @@ function primeCheck() {
 	}
 
 	if (primeValue == 1) {
-		alert ("The number is not prime");
+		alert("The number is not prime");
 	} else {
-		alert ("The number is prime");
+		alert("The number is prime");
 	}
 } // max number = 8999999999999999
