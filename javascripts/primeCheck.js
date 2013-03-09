@@ -3,6 +3,7 @@ var primeCheck = function() {
 	var primeValue;
 	var divisor;
 	var skip = true;
+
 	while (skip !== false) {
 		number = (prompt("Find out if the number is prime:"));
 		var skip1 = false;
@@ -29,12 +30,14 @@ var primeCheck = function() {
 			skip = false;
 		}
 	}
+
 	for (divisor = 2; divisor < Math.sqrt(number) + 1; divisor++) {
 		if (number % divisor === 0) {
 			primeValue = 1;
 			break;
 		}
 	}
+
 	if (primeValue == 1) {
 		alert ("The number is not prime");
 	} else {
