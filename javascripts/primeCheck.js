@@ -1,4 +1,4 @@
-var primeCheck = function() {
+function primeCheck() {
 	var number;
 	var primeValue;
 	var divisor;
@@ -43,4 +43,4 @@ var primeCheck = function() {
 	} else {
 		alert ("The number is prime");
 	}
-}; // max number = 8999999999999999
+} // max number = 8999999999999999

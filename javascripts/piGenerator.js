@@ -1,4 +1,4 @@
-var piGenerator = function() {
+function piGenerator() {
 	var pi = 0;
 	var iterations = prompt("How many iterations?");
 	var basicMode = confirm("Would you like to use basic mode?");
@@ -17,4 +17,4 @@ var piGenerator = function() {
 			document.write(pi + "\n");
 		}
 	}
-};
+}
