@@ -8,6 +8,15 @@
 		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="javascripts/respond.js"></script>
+		<script language="javascript">
+			function spoiler(id) {
+				if (document.getElementById(id).style.display==="none") {
+					document.getElementById(id).style.display="inline";
+				} else {
+					document.getElementById(id).style.display="none";
+				}
+			}
+		</script>
 		<!--[if lt IE 9]>
 			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -61,6 +70,18 @@ console.log("ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 					<li><a onclick="primeCheck()">primeCheck.js</a></li>
 					<li><a onclick="piGenerator()">piGenerator.js</a></li>
 					<li><a onclick="messageLength()">messageLength.js</a></li>
+					<li><a onclick="spoiler('characterReplacementTool')">characterReplacementTool</a></li>
+					<div id="characterReplacementTool" style="display:none"> 
+						<br>
+						<script src="javascripts/characterReplacementTool.js"></script>
+						<textarea id="charactersToReplace" rows="2" cols="60">Input characters to replace here.</textarea>
+						<br>
+						<textarea id="charactersToReplaceWith" rows="2" cols="60">Input characters to replace the characters in the above box with here.</textarea>
+						<br>
+						<textarea id="crtMessage" rows="15" cols="60">Input the message here.</textarea>
+						<br>
+						<a onclick="characterReplacementTool()">Replace Characters</a>
+					</div> 
 				</ul>
 
 				<h2>About Me</h2>

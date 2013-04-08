@@ -2,7 +2,7 @@ function piGenerator() {
 	var pi = 0;
 	var skip = false;
 	var iterations;
-	
+
 	while (skip === false) {
 		iterations = prompt("How many iterations?");
 		var skip1 = true;
@@ -25,7 +25,7 @@ function piGenerator() {
 			skip = true;
 		}
 	}
-	
+
 	var basicMode = confirm("Would you like to use basic mode?");
 	var n = 1;
 
