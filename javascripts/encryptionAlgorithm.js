@@ -32,9 +32,9 @@ function encryptionAlgorithm(EnDe, theText, eKey) {
 				_key = 1;
 			}
 		}
-		theKey *= _key;
+		_key = _key.toString();
 		theKey = theKey.toString();
-		console.log("theKey " + _key + " " + theKey);
+		theKey += _key;
 	}
 
 	for (var j = 0; j < theKey.length; j++) {
@@ -59,25 +59,21 @@ function encryptionAlgorithm(EnDe, theText, eKey) {
 		switch (keyOp[l]) {
 			case "+":
 				keyNum = parseInt(theKey.substr(l, 1)) + parseInt(keyNum);
-				console.log(keyNum);
 				keyAdd[k] = keyNum;
 				keyNum %= 2401;
 				break;
 			case "-":
 				keyNum = Math.abs(keyNum -= theKey.substr(l, 1));
-				console.log(keyNum);
 				keyAdd[k] = keyNum;
 				keyNum %= 2401;
 				break;
 			case "x":
 				keyNum *= theKey.substr(l, 1);
-				console.log(keyNum);
 				keyAdd[k] = keyNum;
 				keyNum %= 2401;
 				break;
 			case "÷":
-				keyNum = Math.floor(keyNum /= theKey.substr(l, 1)) + 1;
-				console.log(keyNum);
+				keyNum = Math.floor(keyNum /= theKey.substr(l, 1) + 1);
 				keyAdd[k] = keyNum;
 				keyNum %= 2401;
 				break;
