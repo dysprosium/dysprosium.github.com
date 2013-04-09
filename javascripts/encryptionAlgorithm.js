@@ -94,7 +94,6 @@ function encryptionAlgorithm(EnDe, theText, eKey) {
 				}
 			}
 		}
-		console.log("charNum " + charNum + " " + chars[charNum]);
 		newText += chars[(charNum + keyAdd[m]) % (chars.length)];
 	}
 
