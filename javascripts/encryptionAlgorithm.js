@@ -14,7 +14,7 @@ function encryptionAlgorithm(EnDe, theText, eKey) {
 	var newText = "";
 	var keyAdd = new Array();
 	var keyOp = new Array();
-	var theKey = "117"
+	var theKey = "";
 
 	if (EnDe === "encrypt") {
 		chars = echars;
